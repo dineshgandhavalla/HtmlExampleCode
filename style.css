@@ -1,0 +1,175 @@
+*{
+    text-decoration: none;
+}
+
+section#menu{
+    display: flex;
+}
+
+header#head{
+    flex:2;
+    margin-left:100px;
+    
+}
+
+header h1{
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+ul#list{
+    flex:1;
+    list-style-type: none;
+    display: flex;
+   
+}
+
+ul li{
+    list-style-type: none;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 50px;
+    padding:10px;
+    flex:1;
+    text-align:center;
+    border: 1px solid white;
+    border-radius: 4px;
+    
+}
+
+ul li a{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    color: #333;
+}
+
+.active{
+    background-color: #e95d3c;
+}
+
+img#banner{
+    width:100%;
+    height: 500px;
+}
+
+div{
+    display: flex;
+}
+
+div section{
+    flex: 1;
+    padding: 40px;
+    line-height: 1.75em;
+    display: block;
+}
+
+header h2{
+    text-align: center;
+}
+header .para{
+    
+    margin-bottom: 1em;
+    line-height: 1.3em;
+    margin-left: 10px;
+
+}
+
+.button{
+    background-color:  #e95d3c;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+}
+p{
+    text-align: justify;
+}
+
+div .content{
+    display : flex;
+}
+
+section#content{
+    flex:2
+}
+
+.fix{
+    display: flex;
+    list-style-type: none;
+    text-align: -webkit-match-parent;
+    margin: 0;
+    padding: 1px;
+    padding-bottom: 20px;
+    margin-top:25px;
+    border-bottom: 0.5px solid rgb(245, 240, 240);
+}
+
+.imgfix{
+    flex:1;
+    padding:0;
+    margin:0;
+    
+}
+
+.pfix{
+    flex:1;
+    padding:0;
+    margin:0;
+    margin-left: 10px;
+    text-align: left;
+}
+
+div section#chandu{
+    flex:1;
+    margin-top: 10px;
+    margin-left:0;
+    padding-left: 0;
+    
+}
+
+div section#mouli{
+    flex:1;
+    margin-top: 10px;
+    margin-left:0;
+    padding-left: 0;
+}
+
+div section#mouli div .sidebar{
+    margin-top: 10px;
+    margin-left:0;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding-left:0;
+    padding-top:40px;
+    
+}
+
+.side{
+    color: #ff0000;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-transform: none;
+    text-decoration: underline;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+div .sidebar ul li{
+    display: list-item;
+    padding:0;
+    border-bottom: 0.5px solid rgb(245, 240, 240);
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin:0;
+    text-align: left;    
+}
+
+
+
+
+
+
